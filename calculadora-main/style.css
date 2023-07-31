@@ -1,0 +1,85 @@
+    .divPrincipal{
+        margin-top: 12rem;
+  
+width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    }
+.textoPrincipal{
+    font-size: 38px;
+}
+
+.inputPrimeiro{
+width: 16rem;
+margin-top: 3rem;
+height: 2rem;
+/* text-align: center; */
+border: 3px solid black;
+border-radius: 5px;
+}
+.bunPrimeiro{
+    height: 41px;
+    width: 91px;
+    margin-top: -6px;
+}
+
+.textSegundo{
+margin-top: 2rem;
+    margin: 2rem;
+    font-size: 38px;
+}
+.lista{
+    font-size: 21px;
+}
+.valor{
+    font-size: 28px;
+}
+label{
+    font-size: 33px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background-image: linear-gradient(45deg,black, rgb(248, 134, 134));
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+.botao:hover{
+    background-color: black;
+}
+#resultado{
+    background-color: white;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
